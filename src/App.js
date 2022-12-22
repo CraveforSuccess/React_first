@@ -1,15 +1,15 @@
 import React from 'react'
-import "./Styles/App.scss";
-import "./Styles/header.scss";
-import "./Styles/home.scss";
+import "App.scss";
+import "header.scss";
+import "Styles/home.scss";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Header from './Components/Header';
-import Home from './Components/Home';
-import Footer from './Components/Footer';
-import Contact from './Components/Contact';
-import Services from './Components/Services';
-import "./Styles/mediaqueries.scss";
+import Header from 'Components/Header';
+import Home from 'Components/Home';
+import Footer from 'Components/Footer';
+import Contact from 'Components/Contact';
+import Services from 'Components/Services';
+import "mediaqueries.scss";
 
 
 
